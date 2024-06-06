@@ -3,6 +3,19 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/My_project/repos/MSP_Tasks/Task-3-RoomDB/app/src/main/res/drawable-v24/add.xml" value="0.1845" />
+        <entry key="..\:/My_project/repos/MSP_Tasks/Task-3-RoomDB/app/src/main/res/drawable/back0.xml" value="0.1845" />
+        <entry key="..\:/My_project/repos/MSP_Tasks/Task-3-RoomDB/app/src/main/res/drawable/optoions.xml" value="0.1845" />
+        <entry key="..\:/My_project/repos/MSP_Tasks/Task-3-RoomDB/app/src/main/res/drawable/rgstrback.xml" value="0.1845" />
+        <entry key="..\:/My_project/repos/MSP_Tasks/Task-3-RoomDB/app/src/main/res/layout/activity_add.xml" value="0.22447916666666667" />
+        <entry key="..\:/My_project/repos/MSP_Tasks/Task-3-RoomDB/app/src/main/res/layout/activity_main.xml" value="0.22447916666666667" />
+        <entry key="..\:/My_project/repos/MSP_Tasks/Task-3-RoomDB/app/src/main/res/layout/activity_registration.xml" value="0.22447916666666667" />
+        <entry key="..\:/My_project/repos/MSP_Tasks/Task-3-RoomDB/app/src/main/res/layout/activity_start.xml" value="0.22447916666666667" />
+        <entry key="..\:/My_project/repos/MSP_Tasks/Task-3-RoomDB/app/src/main/res/layout/add.xml" value="0.22447916666666667" />
+        <entry key="..\:/My_project/repos/MSP_Tasks/Task-3-RoomDB/app/src/main/res/layout/item.xml" value="0.2234375" />
+        <entry key="..\:/My_project/repos/MSP_Tasks/Task-3-RoomDB/app/src/main/res/layout/options.xml" value="0.2234375" />
+        <entry key="..\:/My_project/repos/MSP_Tasks/Task-3-RoomDB/app/src/main/res/layout/recycler_view_item.xml" value="0.22447916666666667" />
+        <entry key="..\:/My_project/repos/MSP_Tasks/Task-3-RoomDB/app/src/main/res/layout/spalchscreen.xml" value="0.22" />
         <entry key="..\:/Users/yassa/AndroidStudioProjects/room/app/src/main/res/drawable/back0.xml" value="0.1" />
         <entry key="..\:/Users/yassa/AndroidStudioProjects/room/app/src/main/res/drawable/fin.xml" value="0.209" />
         <entry key="..\:/Users/yassa/AndroidStudioProjects/room/app/src/main/res/drawable/rgstrback.xml" value="0.1" />

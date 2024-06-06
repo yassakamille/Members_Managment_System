@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<selector xmlns:android="http://schemas.android.com/apk/res/android">
+    <string-array android:name="options_array">
+        <item>Head</item>
+        <item>Vice head</item>
+        <item>Member</item>
+    </string-array>
+
+</selector>

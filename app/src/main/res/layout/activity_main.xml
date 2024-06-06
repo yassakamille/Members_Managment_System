@@ -5,7 +5,6 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical"
-
     android:id="@+id/main_layout"
     android:background="@drawable/fin"
     tools:viewBindingIgnore="true"
@@ -37,7 +36,6 @@
         android:layout_height="50dp"
         android:id="@+id/pass_edt_lgn"
         android:hint="Enter your password"
-
         android:textColor="@color/black"
         android:padding="10dp"
         android:background="@drawable/rgstrback"
@@ -48,11 +46,20 @@
         android:gravity="center"
 
         />
+    <CheckBox
+        android:id="@+id/chck"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Remember me"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="5dp"
+        android:textSize="15sp"
+        />
     <Button
         android:layout_width="200dp"
         android:layout_height="wrap_content"
         android:id="@+id/lgn_btn"
-        android:layout_marginTop="25dp"
+        android:layout_marginTop="5dp"
         android:layout_gravity="center"
         android:gravity="center"
         android:text="login"
@@ -77,8 +84,9 @@
             android:textColor="@color/black"
             android:gravity="center"
             android:text="or"
+            android:textStyle="bold"
             android:layout_weight="1"
-            android:textSize="20dp" />
+            android:textSize="20sp" />
 
         <View
             android:layout_width="100dp"
@@ -95,7 +103,7 @@
         android:layout_gravity="center"
         android:gravity="center"
         android:layout_marginTop="10dp"
-        android:textSize="19dp"
+        android:textSize="19sp"
         android:text="Register"
         android:textColor="#FF7700"
         />

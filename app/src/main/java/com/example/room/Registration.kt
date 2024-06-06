@@ -10,10 +10,7 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.GlobalScope
 import kotlinx.coroutines.launch
 
-
 class Registration : AppCompatActivity() {
-
-
     private lateinit var userDatabase: UserDatabase
     private lateinit var userDao: UserDao
     private lateinit var regButton: Button
@@ -21,8 +18,8 @@ class Registration : AppCompatActivity() {
     private lateinit var userpassword: EditText
     private lateinit var useremail: EditText
     private lateinit var userphone: EditText
-    private lateinit var usrdao: UserDao
 
+    var checked: Boolean = false
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_registration)
@@ -34,8 +31,6 @@ class Registration : AppCompatActivity() {
         userphone = findViewById(R.id.usrphn)
         userpassword = findViewById(R.id.usrpss)
 
-//        usrdao = UserDatabase.getDatabase(this).UserDao()
-
         regButton.setOnClickListener {
             val usernametxt = username.text.toString()
             val userpasswordtxt = userpassword.text.toString()
@@ -46,20 +41,20 @@ class Registration : AppCompatActivity() {
                 Toast.makeText(this@Registration, "Please Fill The Form First", Toast.LENGTH_LONG)
                     .show()
             } else {
+                checked = true
                 GlobalScope.launch(Dispatchers.IO) {
                     val user = User(0, usernametxt, userpasswordtxt, userphonetxt, useremailtxt)
-
-
                         userDao.addUser(user)
-                        var checked: Boolean = true
-//                    Toast.makeText(
-//                        this@Registration,
-//                        "Registration Successful!",
-//                        Toast.LENGTH_SHORT
-//                    ).show()
-//                onBackPressed()
 
 
+                }
+                if (checked){
+                    Toast.makeText(
+                        this@Registration,
+                        "Registration Successful!",
+                        Toast.LENGTH_SHORT
+                    ).show()
+                onBackPressed()
                 }
 
             }
